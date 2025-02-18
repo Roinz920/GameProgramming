@@ -42,7 +42,7 @@ int main()
 	int itemlevel = 0;
 	float succesrate = 0.7*100;
 	float downrate = 0.05*100;
-	float failrate = (1 - succesrate/100- downrate/100)*100;
+	float failrate = (100 - succesrate - downrate);
 	
 	printf("아이템 강화 시스템\n");
 	printf("아이템 이름 : %s\n", "itemname");
