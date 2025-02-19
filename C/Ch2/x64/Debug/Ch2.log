@@ -1,4 +1,2 @@
 ﻿  Main.c
-C:\Users\Administrator\Desktop\GameProgramming\C\Ch2\Main.c(52,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
-C:\Users\Administrator\Desktop\GameProgramming\C\Ch2\Main.c(52,9): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
   Ch2.vcxproj -> C:\Users\Administrator\Desktop\GameProgramming\C\CStudy\x64\Debug\Ch2.exe

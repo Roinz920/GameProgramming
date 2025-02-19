@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\CStudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DACD8512-783C-4674-B025-5281A9C83474}|..\\Operator\\Operator.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Operator\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB07D2BF-67AF-4572-9F62-F55AF8F76594}|..\\Ch2\\Ch2.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Ch2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -42,14 +45,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Operator\\main.c",
+              "RelativeDocumentMoniker": "..\\Operator\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Operator\\main.c",
+              "RelativeToolTip": "..\\Operator\\main.c",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAiwHkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-19T07:05:52.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Ch2\\Main.c",
               "RelativeDocumentMoniker": "..\\Ch2\\Main.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming\\C\\Ch2\\Main.c",
               "RelativeToolTip": "..\\Ch2\\Main.c",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwBAAAAADAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-02-18T07:07:46.814Z",
+              "WhenOpened": "2025-02-19T08:34:02.287Z",
               "EditorCaption": ""
             }
           ]

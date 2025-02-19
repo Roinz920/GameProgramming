@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\GameProgramming\C\Operator\main.c(93,7): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
+C:\Users\Administrator\Desktop\GameProgramming\C\Operator\main.c(146,6): warning C4101: 'ItemB' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\GameProgramming\C\Operator\main.c(145,6): warning C4101: 'ItemA' :참조되지 않은 지역 변수입니다.
+  Operator.vcxproj -> C:\Users\Administrator\Desktop\GameProgramming\C\CStudy\x64\Debug\Operator.exe
