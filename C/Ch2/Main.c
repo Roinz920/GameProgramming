@@ -13,8 +13,7 @@ int main()
 	float attackPower;
 	//attackPower = 10.5;
 
-	int weapontype;
-	//char weapontypetext[5]="melee";
+		//char weapontypetext[5]="melee";
 	int weaponSTR;
 	int weaponINT;
 	int weaponbasedmg;
@@ -25,7 +24,7 @@ int main()
 	float failrate = (100 - succesrate - downrate);
 
 	weaponbasedmg = 30;
-	weapontype = 0;
+	int weapontype = 0;
 	// if (weapontype = 0)
 	// {
 	// 	weapontypetext = "melee";

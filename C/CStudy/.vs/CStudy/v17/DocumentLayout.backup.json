@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\CStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46DEFB3A-8D9D-49BD-A59E-5CB058437CE5}|..\\Ch4\\Ch4.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch4\\Data.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DACD8512-783C-4674-B025-5281A9C83474}|..\\Operator\\Operator.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Operator\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Data.c",
+              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch4\\Data.c",
+              "RelativeDocumentMoniker": "..\\Ch4\\Data.c",
+              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch4\\Data.c*",
+              "RelativeToolTip": "..\\Ch4\\Data.c*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAnwH0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-20T07:25:22.369Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Operator\\main.c",
+              "RelativeDocumentMoniker": "..\\Operator\\main.c",
+              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Operator\\main.c",
+              "RelativeToolTip": "..\\Operator\\main.c",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-20T07:33:31.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

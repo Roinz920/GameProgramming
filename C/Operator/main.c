@@ -90,7 +90,7 @@ int main()
 	int num3 = 2;
 	int num4 = 5;
 	//num3 = num3 + num4; // num3에 2+5의 값을 넣는다
-	num3 != num4;
+	num3 += num4;
 
 	// T += A; 자기 자신과 다음 수를 더하여 다시 자기 자신의 변수에 넣는 연산자 (T = T + A;)
 	// T -= A; 자기 자신과 다음 수를 뺴서 다시 자기 자신의 변수에 넣는 연산자 (T = T - A;)
@@ -141,10 +141,31 @@ int main()
 	// Slot 최대 갯수 → 변수로 지정
 	// A 아이템을 n개 획득, B 아이템을 m개 획득
 	// 현재 인벤토리의 갯수가 가득 찼는지 안 찼는지 표현하는 결과 표현
-	int SlotNo = 16;
-	int ItemA;
-	int ItemB;
+	int MaxinventorySlotNo = 16;
+	int ItemAmaxStack;
+	int ItemAtotalStack;
+	int ItemANo;
+	int ItemBmaxStack;
+	int ItemBtotalStack;
+	int ItemBNo;
 
+	ItemAmaxStack = 99;
+	ItemBmaxStack = 99;
+	//ItemANo = 300;
+	//ItemBNo = 550;
+	printf("\n아이템A 획득 수량 :\n");
+	scanf_s("%d", &ItemANo);
+	printf("\n아이템B 획득 수량 :\n");
+	scanf_s("%d", &ItemBNo);
+	
+	// if( ItemANo % ItemAmaxStack = 0) { ItemAtotalStack = ItemANo / ItemAmaxStack } else { ItemAtotalStack = (ItemANo / ItemAmaxStack) + 1 } ));
+	ItemAtotalStack = (ItemANo % ItemAmaxStack) == 0 ? (ItemANo / ItemAmaxStack) : (ItemANo / ItemAmaxStack) + 1;
+	ItemBtotalStack = (ItemBNo % ItemBmaxStack) == 0 ? (ItemBNo / ItemBmaxStack) : (ItemBNo / ItemBmaxStack) + 1;
+	
+	printf("아이템 획득량 \n아이템A : %d, 아이템B : %d\n", ItemANo, ItemBNo);
+	printf("아이템A 슬롯 : %d, 아이템B 슬롯 : %d \n", ItemAtotalStack, ItemBtotalStack);
+	printf("인벤토리 슬롯 상황 : %s", MaxinventorySlotNo <= (ItemAtotalStack + ItemBtotalStack) ? "가득참" : "여유있음");
+	printf("  ( %d / %d ) \n", (ItemAtotalStack + ItemBtotalStack), MaxinventorySlotNo);
 
 	// 게임의 스토리3.
 
