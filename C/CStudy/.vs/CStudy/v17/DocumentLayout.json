@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\CStudy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{108FF16A-268D-489D-822B-8173F7493F57}|..\\Ch6\\Ch6.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch6\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B4012C29-464E-4486-A80A-5216AD98ACF3}|..\\Ch7\\Ch7.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch7\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch6\\main.c",
-              "RelativeDocumentMoniker": "..\\Ch6\\main.c",
-              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch6\\main.c",
-              "RelativeToolTip": "..\\Ch6\\main.c",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch7\\main.c",
+              "RelativeDocumentMoniker": "..\\Ch7\\main.c",
+              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\Ch7\\main.c",
+              "RelativeToolTip": "..\\Ch7\\main.c",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAcwLIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-02-24T07:02:32.882Z",
+              "WhenOpened": "2025-02-25T07:02:04.743Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
