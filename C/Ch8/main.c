@@ -1,7 +1,7 @@
 /*
 Date : 2025-02-26
 Name : 김정민
-Subject : 코드의 흐름 제어 - 반복문 (for, while)
+Subject : 헤더
 */
 
 /*
