@@ -15,6 +15,9 @@ int currentAttackPower = 0;
 
 void ShowUpgradeMenu()
 {
+	int normalCost = 100;
+	int refineCost = 50;
+
 	while (true)
 	{
 		system("cls");
@@ -31,11 +34,17 @@ void ShowUpgradeMenu()
 
 		if (inputNo == 1)
 		{
-			WeaponLevelUpgrade();
+			if (UseMoney(normalCost))
+			{
+				WeaponLevelUpgrade();
+			}
 		}
 		else if (inputNo == 2)
 		{
-			WeaponRefineUpragde();
+			if (UseMoney(refineCost))
+			{
+				WeaponRefineUpragde();
+			}
 		}
 		else if (inputNo == 3)
 		{
@@ -47,8 +56,7 @@ void ShowUpgradeMenu()
 			printf("잘못된 입력값입니다.\n");
 		}
 		
-		printf("\n진행을 위해 아무 키나 입력해주세요.\n");
-		_getch();
+		WaitingInputAnyKey();
 	}
 }
 

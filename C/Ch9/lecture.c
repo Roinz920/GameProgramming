@@ -1,4 +1,4 @@
-#include "lecture.h"
+#include "main.h"
 
 /*
 * 변수 : 변하는 수를 컴퓨터에 전달하기 위해 선언하는 것.
