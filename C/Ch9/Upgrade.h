@@ -3,7 +3,7 @@
 #include "main.h"
 
 
-void ShowUpgradeMenu();
+void ShowMenu();
 void WeaponLevelUpgrade();
 void WeaponRefineUpragde();
 void WeaponCurrenStat();
