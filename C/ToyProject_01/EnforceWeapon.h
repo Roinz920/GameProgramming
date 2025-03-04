@@ -6,6 +6,9 @@
 #include <Windows.h>	// system("cls") 윈도우 콘솔 함수가 포함되어있는 헤더
 #include <stdlib.h>		// rand() 명령어를 사용하기 위한 헤더
 #include <time.h>		// time() 명령어를 사용하기 위한 헤더
+#include "Currency.h"
+#include "random.h"
+
 
 
 void ShowMenu();
@@ -19,14 +22,11 @@ bool IsGameClear(); //무기의 레벨이 목표레벨과 같아질 경우
 //전역 변수
 int weaponLevel;
 int TargetLevel;
-int weaponRefineLevel;
 int BaseAttackPower;
 int WeaponLevelPower;
-int WeaponRefinePower;
 int currentAttackPower;
 
 void WeaponLevelUpgrade();
-void WeaponRefineUpragde();
 
 void WaitingInputAnyKey();
 
@@ -40,6 +40,3 @@ extern int TargetLevel;
 extern bool IsClear;
 extern bool IsFail;
 
-bool IsEnoughMoeny(int amount);
-
-bool UseMoney(int price);

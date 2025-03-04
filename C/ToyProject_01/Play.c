@@ -1,37 +1,42 @@
 #include "Play.h"
 
 //강화 게임에 필요한 전역 변수들
-int weaponLevel = 10;
+int weaponLevel = 0;
 int TargetLevel = 10;
-int weaponRefineLevel = 0;
 int BaseAttackPower = 30;
 int WeaponLevelPower = 0;
-int WeaponRefinePower = 0;
 int currentAttackPower = 0;
 bool IsClear = false;
 bool IsFail = false;
 
+
+// 방해요인
+int CurrentMoney = 10000;
+
 void ShowTitle()
 {
-	printf("게임이 실행 중입니다.\n");
-	printf("====================================================\n");
-	printf("====================================================\n");
-	printf("====================================================\n");
-
-	printf("                   무기 강화하기                   \n\n");
+	printf("게임이 실행 중입니다.\n\n");
+	printf("===========================================================\n");
+	printf("====================== 무기 강화하기 ======================\n");
+	printf("===========================================================\n\n");
 }
 
 void ShowManual()
 {
+	printf("┌─────────────────────────────────────────────────────────┐\n");
 	// 1. 조작법
-	 printf("키보드 임력 중 엔터키를 눌러 선택.\n");
-	 printf("입력 조건 이외의 키를 입력할 시에 재선택이 필요합니다.\n\n");
+	printf("│  [조작법]						  │\n");
+	 printf("│  키보드 임력 중 엔터키를 눌러 선택.			  │\n");
+	 printf("│  입력 조건 이외의 키를 입력할 시에 재선택이 필요합니다. │\n");
 	// 2. 게임 목표
-	 printf("무기 10강 만들기\n\n");
+	 printf("│  [게임 목표]						  │\n");
+	 printf("│  무기 10강 만들기					  │\n");
 	// 3. 방해 요소
-	 printf("1. 제한된 소지금으로 목표를 달성해야합니다.\n");
-	 printf("2. 특정 무기 레벨에서 강화 하락이 존재합니다.\n");
-	 printf("3. 특정 레벨에서 무기가 파괴됩니다.\n\n");
+	 printf("│  [게임 조건]						  │\n");
+	 printf("│  1. 제한된 소지금으로 목표를 달성해야합니다.		  │\n");
+	 printf("│  2. 특정 무기 레벨에서 강화 하락이 존재합니다.	  │\n");
+	 printf("│  3. 특정 레벨에서 무기가 파괴됩니다.			  │\n");
+	 printf("└─────────────────────────────────────────────────────────┘\n\n");
 }
 
 void GameLogic()
@@ -61,9 +66,10 @@ void GameLogic()
 	if (IsFail)
 	{
 		printf("GAME OVER...\n");
+		
 		_getch();
 	}
-
+	
 }
 
 void GameLoop()
