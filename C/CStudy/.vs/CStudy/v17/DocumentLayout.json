@@ -6,10 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3D9DA372-A5CE-447A-8EAE-09D82B1C2B9B}|..\\MoveInConsole\\MoveInConsole.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +35,7 @@
               "RelativeDocumentMoniker": "..\\MoveInConsole\\main.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\main.c",
               "RelativeToolTip": "..\\MoveInConsole\\main.c",
-              "ViewState": "AgIAAE0AAAAAAAAAAAASwGYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwDMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-06T07:04:05.258Z",
               "IsPinned": true,
@@ -37,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Border.h",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.h",
               "RelativeDocumentMoniker": "..\\MoveInConsole\\Border.h",
@@ -50,15 +56,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Border.c",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.c",
               "RelativeDocumentMoniker": "..\\MoveInConsole\\Border.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\Border.c",
               "RelativeToolTip": "..\\MoveInConsole\\Border.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-06T07:21:10.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "random.h",
+              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.h",
+              "RelativeDocumentMoniker": "..\\MoveInConsole\\random.h",
+              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.h",
+              "RelativeToolTip": "..\\MoveInConsole\\random.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-07T07:31:22.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "random.c",
+              "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.c",
+              "RelativeDocumentMoniker": "..\\MoveInConsole\\random.c",
+              "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\MoveInConsole\\random.c",
+              "RelativeToolTip": "..\\MoveInConsole\\random.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-07T07:31:29.726Z",
               "EditorCaption": ""
             }
           ]

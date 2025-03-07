@@ -4,6 +4,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "random.h"
 
 
 //커서 : output된 결과물을 출력하는 위치를 안내해주는 기호.
@@ -14,7 +15,27 @@ void SetCursorPosition(int x, int y)
 	COORD position = { x,y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
 }
+
+
+//전역변수 
 bool GameOver = false;
+int CurrentScore = 0;
+int randomX = 26;
+int randomY = 20;
+int playtime = 0;
+
+int questItemPositionX = 14;
+int questItemPositionY = 5;
+bool IsQuest = false;
+
+//커서를 숨기고 싶다. ture = 보이는 상태 / false = 보이지 않는 상태. WIndows.h에 존재함
+void SetCursorVisible(bool enable)
+{
+	CONSOLE_CURSOR_INFO cursorInfo;
+	cursorInfo.bVisible = enable;
+	cursorInfo.dwSize = 1;
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
+}
 
 /*
 * 도전
@@ -26,6 +47,12 @@ int main()
 	extern int Max_Width;
 	extern int Max_Height;
 	ShowBorder(); 
+	CreateRandomSeed();
+	SetCursorPosition(randomX, randomY);
+	printf("☆");
+	SetCursorPosition(questItemPositionX, questItemPositionY);
+	printf("※");
+	SetCursorVisible(false);
 	
 	// 플레이어의 현재 좌표를 설명하기위한 변수 선언 (정수 선언)
 	int PlayerPositionX = 10; // x의 값 +2 (오른쪽으로 1칸)
@@ -48,6 +75,10 @@ int main()
 
 		if (_kbhit())
 		{
+			SetCursorPosition(PlayerPositionX, PlayerPositionY);
+			printf("  ");
+			
+			//화살표 입력 인식
 			if (GetAsyncKeyState(VK_UP) & 0x8000) // 위
 			{
 				PlayerPositionY -= 1;
@@ -87,20 +118,56 @@ int main()
 			}
 		}
 		//printf("현재 좌표 : ( %d, %d ) \n", PlayerPositionX, PlayerPositionY); //테스트 코드
-		system("cls");
-		ShowBorder();
+		
+		
 		SetCursorPosition(PlayerPositionX, PlayerPositionY);
 		printf("▣");
-		Sleep (50);
+				
 		
-		//캐릭터가 특정 위치에 도달하면 GameOver ture로 종료가 되도록 만들어보세요.
-		if (PlayerPositionX == 26 && PlayerPositionY == 20)
+		// UI 코드
+		SetCursorPosition(60, 0);  // 참고로 \n은 커서의 좌표를 0,0으로 바꾸는 작업
+		printf("Score");
+		SetCursorPosition(60, 1);
+		printf("현재 점수 : %d", CurrentScore);
+
+		// 시간 제어 코드
+		playtime++;
+
+		//int hour	= playtime / 60 ^ 2;
+		int minute	= playtime / 60;
+		int second	= playtime % 60;
+
+		SetCursorPosition(60, 2);
+		printf("플레이 시간 : %02d 분 %02d초", minute, second); //%02d : 정수표현을 2자리로 하라
+
+		if (IsQuest)
 		{
-			GameOver = true;
+			SetCursorPosition(60, 3);
+			printf("퀘스트가 활성화되었습니다.");
+		}
+
+		Sleep(50);
+
+		//캐릭터가 특정 위치에 도달하면 GameOver ture로 종료가 되도록 만들어보세요.
+		if (PlayerPositionX == randomX && PlayerPositionY == randomY)
+		{
+			CurrentScore += 1;	//점수 상승
+								//아이템의 좌표 변경
+			randomX = ReturnPositionX();
+			randomY = ReturnPositionY();
+			SetCursorPosition(randomX, randomY);
+			printf("☆");
 		}
 		
-		if (GameOver)
+		if (PlayerPositionX == questItemPositionX && PlayerPositionY == questItemPositionY)
 		{
+			IsQuest = true;
+		}
+
+		if (CurrentScore == 10)
+		{
+			SetCursorPosition(60, 10);
+			printf("GameOver");
 			break;
 		}
 
