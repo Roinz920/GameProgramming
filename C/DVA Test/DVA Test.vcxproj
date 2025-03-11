@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Console.c" />
     <ClCompile Include="description.c" />
+    <ClCompile Include="Display.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="play.c" />
     <ClCompile Include="title.c" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Console.h" />
     <ClInclude Include="description.h" />
+    <ClInclude Include="Display.h" />
     <ClInclude Include="play.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>

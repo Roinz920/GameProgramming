@@ -8,8 +8,19 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include "description.h"
+#include "Console.h"
+#include "Display.h"
+
+int StartDifficulty;
+int CurrentDifficulty;
+int ResultDifficulty;
+int CurrentHP;
+int MaxHP;
+bool GameReadySet;
+extern bool GameOver;
 
 void SelectDifficulty();
 void GameReady();
+void GameOverCheck();
 void MainGame();
 

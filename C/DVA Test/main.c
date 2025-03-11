@@ -5,15 +5,35 @@
 #include "play.h"
 #include "Console.h"
 
+bool GameOver = false;
 int main()
 {
-	//SetColor(0, 0);
-	//printf("Hello World");
+	
+	system("mode con: cols=50 lines=25");
+	SetCursorVisible(false);
+	SetColor(0, 15);
+	
 	while (true)
 	{
 		Intro();
 		TitleSelect();
-		GameReady();			
-	}
+		
+		if (GameOver == true)
+		{
+			break;
+		}
+		else
+		{
+			GameReady();
 
+			if (GameReadySet == false)
+			{
+				system("cls");
+			}
+			else if (GameReadySet == true)
+			{
+				MainGame();
+			}
+		}
+	}	
 }

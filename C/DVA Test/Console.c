@@ -8,3 +8,17 @@ void SetColor(unsigned char _BGColor, unsigned char _TextColor)
 	unsigned short ColorNum = (_BGColor << 4) | _TextColor;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), ColorNum);
 }
+
+void SetCursorPosition(int x, int y)
+{
+	COORD position = { x,y };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
+}
+
+void SetCursorVisible(bool enable)
+{
+	CONSOLE_CURSOR_INFO cursorInfo;
+	cursorInfo.bVisible = enable;
+	cursorInfo.dwSize = 1;
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
+}
