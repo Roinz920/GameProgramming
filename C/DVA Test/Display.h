@@ -12,3 +12,4 @@ void DirectionBorder();
 void StarCount();
 void DirectionArrow();
 void InGameDisplay();
+void GamOverDisplay();

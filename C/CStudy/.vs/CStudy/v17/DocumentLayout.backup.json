@@ -9,22 +9,22 @@
       "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\play.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\description.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21A97644-3203-4C52-98EB-1C2D804CE8C2}|..\\DVA Test\\DVA Test.vcxproj|C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -47,26 +47,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Display.c",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.c",
               "RelativeDocumentMoniker": "..\\DVA Test\\Display.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.c",
               "RelativeToolTip": "..\\DVA Test\\Display.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAvwG4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-11T05:09:30.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Display.h",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.h",
               "RelativeDocumentMoniker": "..\\DVA Test\\Display.h",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Display.h",
               "RelativeToolTip": "..\\DVA Test\\Display.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-11T05:09:25.264Z",
               "EditorCaption": ""
@@ -79,35 +79,36 @@
               "RelativeDocumentMoniker": "..\\DVA Test\\play.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\play.c",
               "RelativeToolTip": "..\\DVA Test\\play.c",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAvwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-11T04:28:16.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "play.h",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\play.h",
               "RelativeDocumentMoniker": "..\\DVA Test\\play.h",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\play.h",
               "RelativeToolTip": "..\\DVA Test\\play.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-11T04:26:37.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Console.c",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Console.c",
               "RelativeDocumentMoniker": "..\\DVA Test\\Console.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\Console.c",
               "RelativeToolTip": "..\\DVA Test\\Console.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T04:26:43.312Z"
+              "WhenOpened": "2025-03-11T04:26:43.312Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,15 +124,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "description.c",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\description.c",
               "RelativeDocumentMoniker": "..\\DVA Test\\description.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\description.c",
               "RelativeToolTip": "..\\DVA Test\\description.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T04:26:41.323Z"
+              "WhenOpened": "2025-03-11T04:26:41.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "title.h",
               "DocumentMoniker": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\title.h",
               "RelativeDocumentMoniker": "..\\DVA Test\\title.h",
@@ -167,8 +169,7 @@
               "RelativeToolTip": "..\\DVA Test\\title.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-11T04:26:38.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:26:38.453Z"
             },
             {
               "$type": "Document",
@@ -178,7 +179,7 @@
               "RelativeDocumentMoniker": "..\\DVA Test\\main.c",
               "ToolTip": "C:\\Users\\Kim\\Desktop\\GameProgramming\\C\\DVA Test\\main.c",
               "RelativeToolTip": "..\\DVA Test\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-11T04:26:27.514Z",
               "EditorCaption": ""

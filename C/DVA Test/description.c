@@ -10,9 +10,9 @@ void GameDescription()
 	printf("	   당신의 한계를 테스트해보세요.\n");
 
 	printf("\n         │  "); SetColor(0, 12); printf(" << 제한시간 >> "); SetColor(0, 15); printf("│"); SetColor(0, 10); printf(" << 초기 체력 >> │\n"); SetColor(0, 15);
-	printf("  쉬  움 │        4초               20        │\n");
-	printf("  보  통 │        2초               10        │\n");
-	printf("  어려움 │        1초                5        │\n");
+	printf("  쉬  움 │        2초               20        │\n");
+	printf("  보  통 │        1초               10        │\n");
+	printf("  어려움 │      0.5초                5        │\n");
 
 	Sleep(1000);
 }

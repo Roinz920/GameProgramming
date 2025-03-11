@@ -82,7 +82,6 @@ void DirectionArrow()
 		printf("¢¸");
 	}
 	Sleep(ArrowSleepTime);
-	//Sleep(1000);
 }
 
 void InGameDisplay()
@@ -97,6 +96,17 @@ void InGameDisplay()
 	printf("<< Score >>");
 	SetCursorPosition(24, 20);
 	printf("%d", CurrentScore);
+}
 
-
+void GamOverDisplay()
+{
+	SetCursorPosition(17, 5);
+	printf("                ");
+	SetCursorPosition(17, 6);
+	SetColor(0, 12);
+	printf("G A M E  O V E R");
+	SetCursorPosition(17, 7);
+	SetColor(0, 15);
+	printf("                ");
+	SetCursorPosition(24, 22);
 }

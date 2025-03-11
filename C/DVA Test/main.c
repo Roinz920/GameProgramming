@@ -5,7 +5,7 @@
 #include "play.h"
 #include "Console.h"
 
-bool GameOver = false;
+bool GameOver;
 int main()
 {
 	

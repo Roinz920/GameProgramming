@@ -1,2 +1,3 @@
 ﻿  play.c
+C:\Users\Kim\Desktop\GameProgramming\C\DVA Test\play.c(165,14): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
   DVA Test.vcxproj -> C:\Users\Kim\Desktop\GameProgramming\C\CStudy\x64\Debug\DVA Test.exe

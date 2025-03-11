@@ -15,6 +15,7 @@ void SelectDifficulty()
 {
 	while (true)
 	{
+		GameOver = false;
 		SetCursorPosition(18, 14);
 		printf("\n[ 시작 난이도 선택 ]\n\n");
 		printf("     1. 쉬  움\n");
@@ -29,9 +30,9 @@ void SelectDifficulty()
 
 		switch (CurrentDifficulty)
 		{
-		case 1: MaxHP = 20; ArrowSleepTime = 4000; SetCursorPosition(30, 17); printf("선택 된 난이도 :"); SetCursorPosition(30, 18); printf("%s\n", "쉬  움");  break;
-		case 2: MaxHP = 10; ArrowSleepTime = 2000; SetCursorPosition(30, 17); printf("선택 된 난이도 :"); SetCursorPosition(30, 18); printf("%s\n", "보  통");  break;
-		case 3: MaxHP = 5;	ArrowSleepTime = 1000; SetCursorPosition(30, 17); printf("선택 된 난이도 :"); SetCursorPosition(30, 18); printf("%s\n", "어려움");  break;
+		case 1: MaxHP = 20; ArrowSleepTime = 2000; SetCursorPosition(28, 17); printf("< 선택 된 난이도 > "); SetCursorPosition(34, 18); printf("%s\n", "쉬  움");  break;
+		case 2: MaxHP = 10; ArrowSleepTime = 1000; SetCursorPosition(28, 17); printf("< 선택 된 난이도 > "); SetCursorPosition(34, 18); printf("%s\n", "보  통");  break;
+		case 3: MaxHP = 5;	ArrowSleepTime =  500; SetCursorPosition(28, 17); printf("< 선택 된 난이도 > "); SetCursorPosition(34, 18); printf("%s\n", "어려움");  break;
 		default: printf("다시 선택해주세요\n");
 		}
 		CurrentHP = MaxHP;
@@ -83,7 +84,7 @@ void InputDelay()
 }
 void GameOverCheck()
 {
-	if (CurrentHP <= 1)
+	if (CurrentHP == 0)
 	{
 		GameOver = true;
 	}
@@ -156,6 +157,14 @@ void MainGame()
 				CurrentHP -= 1;
 				InputDelay();
 			}
+		}
+		GameOverCheck();
+		if (GameOver == true)
+		{
+			GamOverDisplay();
+			getchar() != '\n';
+			system("cls");
+			break;
 		}
 	}
 }
