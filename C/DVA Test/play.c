@@ -15,7 +15,7 @@ void SelectDifficulty()
 {
 	while (true)
 	{
-		GameOver = false;
+		GameReset();
 		SetCursorPosition(18, 14);
 		printf("\n[ 시작 난이도 선택 ]\n\n");
 		printf("     1. 쉬  움\n");
@@ -78,15 +78,34 @@ void GameReady()
 
 }
 
-void InputDelay()
+void GameReset()
 {
-	Sleep(ArrowSleepTime / 5);
+	GameOver = false;
+	CurrentScore = 0;
 }
+
+void InputDelay(int a)
+{
+	Sleep(ArrowSleepTime * a);
+}
+
 void GameOverCheck()
 {
 	if (CurrentHP == 0)
 	{
 		GameOver = true;
+	}
+}
+
+void GameDifficultyRais()
+{
+	if (CurrentScore > 24 && ArrowSleepTime == 2000)
+	{
+		ArrowSleepTime = 1000;
+	}
+	else if (CurrentScore > 49 && ArrowSleepTime == 1000)
+	{
+		ArrowSleepTime = 500;
 	}
 }
 
@@ -105,12 +124,12 @@ void MainGame()
 				if (GetAsyncKeyState(VK_UP) & 0x8000) // 위
 				{
 					CurrentScore += 1;
-					InputDelay();
+					InputDelay(1);
 				}
 				else
 				{
 					CurrentHP -= 1;
-					InputDelay();
+					InputDelay(3);
 				}
 			}
 			else if (ArrowRandomSeed == 2)
@@ -118,12 +137,12 @@ void MainGame()
 				if (GetAsyncKeyState(VK_RIGHT) & 0x8000) // 우
 				{
 					CurrentScore += 1;
-					InputDelay();
+					InputDelay(1);
 				}
 				else
 				{
 					CurrentHP -= 1;
-					InputDelay();
+					InputDelay(3);
 				}
 			}
 			else if (ArrowRandomSeed == 3)
@@ -131,12 +150,12 @@ void MainGame()
 				if (GetAsyncKeyState(VK_DOWN) & 0x8000) // 아래
 				{
 					CurrentScore += 1;
-					InputDelay();
+					InputDelay(1);
 				}
 				else
 				{
 					CurrentHP -= 1;
-					InputDelay();
+					InputDelay(3);
 				}
 			}
 			else if (ArrowRandomSeed == 4)
@@ -144,20 +163,22 @@ void MainGame()
 				if (GetAsyncKeyState(VK_LEFT) & 0x8000) // 좌
 				{
 					CurrentScore += 1;
-					InputDelay();
+					InputDelay(1);
 				}
 				else
 				{
 					CurrentHP -= 1;
-					InputDelay();
+					InputDelay(3);
 				}
 			}
 			else
 			{
 				CurrentHP -= 1;
-				InputDelay();
+				InputDelay(3);
 			}
 		}
+		InGameDisplay();
+		GameDifficultyRais();
 		GameOverCheck();
 		if (GameOver == true)
 		{

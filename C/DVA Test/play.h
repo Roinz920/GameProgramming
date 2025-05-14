@@ -21,6 +21,8 @@ extern bool GameOver;
 
 void SelectDifficulty();
 void GameReady();
+void GameReset();
 void GameOverCheck();
+void GameDifficultyRais();
 void MainGame();
 
